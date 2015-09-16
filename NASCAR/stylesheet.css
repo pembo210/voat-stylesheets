@@ -12,6 +12,9 @@ background-position:0 40px;
 a[href="#gatorade"]:after {
 content: ''; background: url(https://i.imgur.com/Y3CHgz0.png) no-repeat;
 margin: 0px 6px; border-radius:20px;
+display: inline-block;
+width: 27px;
+height: 27px;
 }
 #container a[href$="/user/Caddis"]:after { 
 background-position:0 -1098px; 
