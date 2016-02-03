@@ -3,7 +3,7 @@
 //game start time = 07/24/2015 0:00
 
 //today
-$ttime = gmdate("F d,Y h:i:s A");
+$ttime = gmdate("Y-m-d");
 
 //find business days, 5 days a week, 1 week = 1 MP year
 $startDate = "2015-07-24";
