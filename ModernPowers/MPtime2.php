@@ -77,7 +77,7 @@ elseif($nHour=="12") {$MPdate = "28th";}
 
 $currentYear = gmdate("Y");
 $MPyear = ($MPyearDiff + $currentYear);
-$MPnow = $MPmonth ." ". $MPdate .",". $MPyear;
+$MPnow = $MPmonth ." ". $MPdate .", ". $MPyear;
 
 //day/night mode
 if($_GET["m"] == "dark") {
