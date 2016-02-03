@@ -19,7 +19,7 @@ $MPyearDiff = floor($workingDays / 5);
 
 // day of the week, check hour for meta
 $today = gmdate(l); 
-$nowHour = gmdate(h);
+$nowHour = gmdate(H);
 $metaHours = array("00", "01", "02");
 
 if($today==Monday){
