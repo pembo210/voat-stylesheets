@@ -6,7 +6,7 @@
 $ttime = gmdate("Y-m-d");
 
 //find business days, 5 days a week, 1 week = 1 MP year
-$startDate = "2015-07-24";
+$startDate = "2015-07-28";
 $endDate = $ttime;
 $workingDays = 0;
  
