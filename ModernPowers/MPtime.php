@@ -5,17 +5,14 @@
 //today
 $ttime = gmdate("Y-m-d");
 
-//find business days, 5 days a week, 1 week = 1 MP year
-$startDate = "2015-07-28";
-$endDate = $ttime;
-$workingDays = 0;
+//7 days a week, 1 week = 1 MP year
+$startDate = "2015-07-26"; //wed 0:00
  
-$startTimestamp = strtotime($startDate);
-$endTimestamp = strtotime($endDate);
-for($i=$startTimestamp; $i<=$endTimestamp; $i = $i+(60*60*24) ){
-	if(date("N",$i) <= 5) $workingDays = $workingDays + 1;
-}
-$MPyearDiff = floor($workingDays / 5);
+$uto_time = strtotime($startDate);
+$ufrom_time = strtotime(gmdate("Y-m-d"));
+$upostMin = floor(abs($uto_time - $ufrom_time) / 604800);
+
+$MPyearDiff = floor($workingDays / 7);
 
 // day of the week, check hour for meta
 $today = gmdate(l); 
@@ -49,10 +46,15 @@ elseif($today==Sunday){
 }
 
 $currentYear = gmdate("Y");
-$MPyear = ($MPyearDiff + $currentYear);
-$MPnow = $MPmonth .",". $MPyear;
+$MPyear = ($upostMin + $currentYear);
+if($MPmonth=="Meta") {
+	$MPnow = "Meta";
+	} else {
+	$MPnow = $MPmonth ." ". $MPyear;
+}
 
 //day/night mode
+//website.com/MPtime.php
 //website.com/MPtime.php?m=dark
 if($_GET["m"]=="dark") {
 	$i = new darktextPNG;
