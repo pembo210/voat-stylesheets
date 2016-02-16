@@ -6,13 +6,11 @@
 $ttime = gmdate("Y-m-d");
 
 //7 days a week, 1 week = 1 MP year
-$startDate = "2015-07-26"; //wed 0:00
+$startDate = "2015-07-27"; //wed 0:00
  
 $uto_time = strtotime($startDate);
 $ufrom_time = strtotime(gmdate("Y-m-d"));
 $upostMin = floor(abs($uto_time - $ufrom_time) / 604800);
-
-$MPyearDiff = floor($workingDays / 7);
 
 // day of the week, check hour for meta
 $today = gmdate(l); 
@@ -47,11 +45,11 @@ elseif($today==Sunday){
 
 $currentYear = gmdate("Y");
 $MPyear = ($upostMin + $currentYear);
-if($MPmonth=="Meta") {
-	$MPnow = "Meta";
-	} else {
+//if($MPmonth=="Meta") {
+//	$MPnow = "Meta";
+//	} else {
 	$MPnow = $MPmonth ." ". $MPyear;
-}
+//}
 
 //day/night mode
 //website.com/MPtime.php
