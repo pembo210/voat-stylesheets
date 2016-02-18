@@ -1,6 +1,4 @@
-#sr-header-area .sr-list {
-    overflow: scroll !important;
-}
+
 .md td {padding:3px}
 /***flair base - do not edit**/
 #container a[href*="/user/"]:after { 
@@ -442,7 +440,7 @@ table {
 .dark .subscribers {
   position: relative;
 }
-/**header checkered flag**/
+/**header checkered flag*
 #header {
   background: url(https://i.imgur.com/Gn7hBrv.png);
   height: 140px;
@@ -455,13 +453,13 @@ table {
   -o-animation: 30s linear 0s normal none infinite running bannermove;
   animation: 30s linear 0s normal none infinite running bannermove;
 }
-/**header movement**/
+/**header movement
  @keyframes bannermove {0%{background-position: 0px -46px;} 100% {background-position: 1004px -46px;}}
  @-moz-keyframes bannermove {0%{background-position: 0px -46px;} 100% {background-position: 1004px -46px;}}
  @-webkit-keyframes bannermove {0%{background-position: 0px -46px;} 100% {background-position: 1004px -46px;}}
  @-ms-keyframes bannermove {0%{background-position: 0px -46px;} 100% {background-position: 1004px -46px;}}
  @-o-keyframes bannermove {0%{background-position: 0px -46px;} 100% {background-position: 1004px -46px;}}
-
+**/
 
 
 #sr-header-area .sr-list {
