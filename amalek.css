@@ -1,0 +1,116 @@
+
+/**april1**/
+a.author.may-blank.userinfo.tooltipstered {
+    font-size: 0;
+}
+/**starts with A**/
+a[data-username^="A"], a[data-username^="a"] {font-size: 0px;}
+a[data-username^="A"]:before, a[data-username^="a"]:before {content: 'Amalek4Life'; font-size: 12px; font-weight: bold;}
+/**starts with B**/
+a[data-username^="B"], a[data-username^="b"] {font-size: 0px;}
+a[data-username^="B"]:before, a[data-username^="b"]:before {content: 'Another_Amalek'; font-size: 12px; font-weight: bold;}
+/**starts with C**/
+a[data-username^="C"], a[data-username^="c"] {font-size: 0px;}
+a[data-username^="C"]:before, a[data-username^="c"]:before {content: 'Amaleks_dog'; font-size: 12px; font-weight: bold;}
+/**starts with D**/
+a[data-username^="D"], a[data-username^="d"] {font-size: 0px;}
+a[data-username^="D"]:before, a[data-username^="d"]:before {content: 'Amaleks_Mom'; font-size: 12px; font-weight: bold;}
+/**starts with E**/
+a[data-username^="E"], a[data-username^="e"] {font-size: 0px;}
+a[data-username^="E"]:before, a[data-username^="e"]:before {content: 'City_of_Amalek_pop_10000000'; font-size: 12px; font-weight: bold;}
+/**starts with F**/
+a[data-username^="F"], a[data-username^="f"] {font-size: 0px;}
+a[data-username^="F"]:before, a[data-username^="f"]:before {content: 'Amalek_in_love'; font-size: 12px; font-weight: bold;}
+/**starts with G**/
+a[data-username^="G"], a[data-username^="g"] {font-size: 0px;}
+a[data-username^="G"]:before, a[data-username^="g"]:before {content: 'Amaleks_Car'; font-size: 12px; font-weight: bold;}
+/**starts with H**/
+a[data-username^="H"], a[data-username^="h"] {font-size: 0px;}
+a[data-username^="H"]:before, a[data-username^="h"]:before {content: 'Amaleks_Airplane'; font-size: 12px; font-weight: bold;}
+/**starts with I**/
+a[data-username^="I"], a[data-username^="i"] {font-size: 0px;}
+a[data-username^="I"]:before, a[data-username^="i"]:before {content: 'Leave_Amalek_Alone'; font-size: 12px; font-weight: bold;}
+/**starts with J**/
+a[data-username^="J"], a[data-username^="j"] {font-size: 0px;}
+a[data-username^="J"]:before, a[data-username^="j"]:before {content: 'Amaleks_fat_face'; font-size: 12px; font-weight: bold;}
+/**starts with K**/
+a[data-username^="K"], a[data-username^="k"] {font-size: 0px;}
+a[data-username^="K"]:before, a[data-username^="k"]:before {content: 'Amaleks_Cat'; font-size: 12px; font-weight: bold;}
+/**starts with L**/
+a[data-username^="L"], a[data-username^="l"] {font-size: 0px;}
+a[data-username^="L"]:before, a[data-username^="l"]:before {content: 'Amaleks_Hampster'; font-size: 12px; font-weight: bold;}
+/**starts with M**/
+a[data-username^="M"], a[data-username^="m"] {font-size: 0px;}
+a[data-username^="M"]:before, a[data-username^="m"]:before {content: 'I_got_in_a_car_accident_with_Amalek'; font-size: 12px; font-weight: bold;}
+/**starts with N**/
+a[data-username^="N"], a[data-username^="n"] {font-size: 0px;}
+a[data-username^="N"]:before, a[data-username^="n"]:before {content: 'Amalek_flipped_me_off'; font-size: 12px; font-weight: bold;}
+/**starts with O**/
+a[data-username^="O"], a[data-username^="o"] {font-size: 0px;}
+a[data-username^="O"]:before, a[data-username^="o"]:before {content: 'Something_Something_Amalek'; font-size: 12px; font-weight: bold;}
+/**starts with P**/
+a[data-username^="P"], a[data-username^="p"] {font-size: 0px;}
+a[data-username^="P"]:before, a[data-username^="p"]:before {content: 'Amaleks_Feet'; font-size: 12px; font-weight: bold;}
+/**starts with Q**/
+a[data-username^="Q"], a[data-username^="q"] {font-size: 0px;}
+a[data-username^="Q"]:before, a[data-username^="q"]:before {content: 'Amaleks_ArmpitHair'; font-size: 12px; font-weight: bold;}
+/**starts with R**/
+a[data-username^="R"], a[data-username^="r"] {font-size: 0px;}
+a[data-username^="R"]:before, a[data-username^="r"]:before {content: 'Amalek420'; font-size: 12px; font-weight: bold;}
+/**starts with S**/
+a[data-username^="S"], a[data-username^="s"] {font-size: 0px;}
+a[data-username^="S"]:before, a[data-username^="s"]:before {content: 'Amaleks_Girlfriend'; font-size: 12px; font-weight: bold;}
+/**starts with T**/
+a[data-username^="T"], a[data-username^="t"] {font-size: 0px;}
+a[data-username^="T"]:before, a[data-username^="t"]:before {content: 'AmaleksFriendGirl'; font-size: 12px; font-weight: bold;}
+/**starts with U**/
+a[data-username^="U"], a[data-username^="u"] {font-size: 0px;}
+a[data-username^="U"]:before, a[data-username^="u"]:before {content: 'Amaleks_Underwear'; font-size: 12px; font-weight: bold;}
+/**starts with V**/
+a[data-username^="V"], a[data-username^="v"] {font-size: 0px;}
+a[data-username^="V"]:before, a[data-username^="v"]:before {content: 'Amaleks_Dogwalker'; font-size: 12px; font-weight: bold;}
+/**starts with W**/
+a[data-username^="W"], a[data-username^="w"] {font-size: 0px;}
+a[data-username^="W"]:before, a[data-username^="w"]:before {content: 'Amaleks_MailMan'; font-size: 12px; font-weight: bold;}
+/**starts with X**/
+a[data-username^="X"], a[data-username^="x"] {font-size: 0px;}
+a[data-username^="X"]:before, a[data-username^="x"]:before {content: 'Amaleks_Porn_Folder'; font-size: 12px; font-weight: bold;}
+/**starts with Y**/
+a[data-username^="Y"], a[data-username^="y"] {font-size: 0px;}
+a[data-username^="Y"]:before, a[data-username^="y"]:before {content: 'Amaleks_Microwave'; font-size: 12px; font-weight: bold;}
+/**starts with Z**/
+a[data-username^="Z"], a[data-username^="z"] {font-size: 0px;}
+a[data-username^="Z"]:before, a[data-username^="z"]:before {content: 'Amaleks_Doge_dish'; font-size: 12px; font-weight: bold;}
+
+
+/**starts with 1**/
+a[data-username^="1"] {font-size: 0px;}
+a[data-username^="1"]:before {content: 'AmalekCreditCardNumber'; font-size: 12px; font-weight: bold;}
+/**starts with 2**/
+a[data-username^="2"] {font-size: 0px;}
+a[data-username^="2"]:before {content: 'Amaleks_Secret'; font-size: 12px; font-weight: bold;}
+/**starts with 3**/
+a[data-username^="3"] {font-size: 0px;}
+a[data-username^="3"]:before {content: 'Amalek_fantasy'; font-size: 12px; font-weight: bold;}
+/**starts with 4**/
+a[data-username^="4"] {font-size: 0px;}
+a[data-username^="4"]:before {content: 'Church_of_Amalek'; font-size: 12px; font-weight: bold;}
+/**starts with 5**/
+a[data-username^="5"] {font-size: 0px;}
+a[data-username^="5"]:before {content: 'Amaleks_bird'; font-size: 12px; font-weight: bold;}
+/**starts with 6**/
+a[data-username^="6"] {font-size: 0px;}
+a[data-username^="6"]:before {content: 'TheRealAmalek'; font-size: 12px; font-weight: bold;}
+/**starts with 7**/
+a[data-username^="7"] {font-size: 0px;}
+a[data-username^="7"]:before {content: 'Just_Another_Amalek'; font-size: 12px; font-weight: bold;}
+/**starts with 8**/
+a[data-username^="8"] {font-size: 0px;}
+a[data-username^="8"]:before {content: 'Amalek_farted'; font-size: 12px; font-weight: bold;}
+/**starts with 9**/
+a[data-username^="9"] {font-size: 0px;}
+a[data-username^="9"]:before {content: 'Amaleks_creeper'; font-size: 12px; font-weight: bold;}
+/**starts with 0**/
+a[data-username^="0"] {font-size: 0px;}
+a[data-username^="0"]:before {content: 'Amaleks_lurk_acct'; font-size: 12px; font-weight: bold;}
+/**april1 end**/
