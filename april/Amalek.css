@@ -1,7 +1,7 @@
 
 /**april1**/
 a.author.may-blank.userinfo.tooltipstered {
-    font-size: 0;
+    font-size: 0!important;
 }
 /**starts with A**/
 a[data-username^="A"], a[data-username^="a"] {font-size: 0px;}
