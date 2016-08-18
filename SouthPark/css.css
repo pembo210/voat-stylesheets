@@ -1,0 +1,353 @@
+
+@media (min-width: 950px) {
+
+body.light {background-color: #7CA4AE;}
+body.dark {background-color: #000;}
+
+body.light div#header {height: 250px;background: url(https://i.sli.mg/yVmx0Y.jpg) repeat-x #fff calc(50% + 70px) 0;}
+body.dark div#header {height: 280px;background: url(https://i.sli.mg/jvikBe.png) no-repeat #000 50% 0;}
+
+.tabmenu a.contribute {display: none;}
+#header-container {    margin-bottom: 50px;}
+#header-banner {    max-width: 1400px;}
+#header-img {
+    padding-left: 180px;
+    background: url(https://i.sli.mg/eJ7Qik.png) no-repeat;
+    background-size: 180px auto;
+    height: 98px !important;
+    width: 180px !important;
+    border: none;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+.pagename a {
+    padding-left: 120px;
+    box-sizing: border-box;
+    background-image: url(https://i.imgur.com/fFGRpDN.png);
+    background-repeat: no-repeat;
+    height: 88px !important;
+    width: 50px !important;
+    border: none;
+    margin: auto;
+    position: relative;
+    top: 3px;
+    font-size: 0;
+}
+
+.submission {
+    min-height: 140px;
+    padding-top: 10px;
+    margin: 16px 0;
+}
+
+/******************/
+
+
+a.thumbnail.may-blank {
+    width: 100px!important;
+    height: 100px!important;
+    max-width: 100px!important;
+    border: 0px;
+}
+.thumbnail>img,
+.thumbnail a>img {
+    border-radius: 16px;
+    border: 0px;
+    height: 100px;
+
+}
+.scorebar {
+    display: none;
+}
+.midcol .score {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}    
+/**upvoats**/
+.submission .arrow-upvote {
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    background: url(https://i.sli.mg/fjnhWG.png) no-repeat;
+    opacity: 0.7;
+}
+.submission .arrow-upvoted {
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    background: url(https://i.sli.mg/fjnhWG.png) no-repeat;
+}
+div[onclick$="0, 1);"].arrow-upvoted {
+    background-position: 0 -40px;
+}
+div[onclick$="1, 1);"].arrow-upvoted {
+    background-position: 0 -80px;
+}
+div[onclick$="2, 1);"].arrow-upvoted {
+    background-position: 0 -120px;
+}
+div[onclick$="3, 1);"].arrow-upvoted {
+    background-position: 0 -160px;
+}
+div[onclick$="4, 1);"].arrow-upvoted {
+    background-position: 0 -200px;
+}
+div[onclick$="5, 1);"].arrow-upvoted {
+    background-position: 0 -240px;
+}
+div[onclick$="6, 1);"].arrow-upvoted {
+    background-position: 0 -280px;
+}
+div[onclick$="7, 1);"].arrow-upvoted {
+    background-position: 0 -320px;
+}
+div[onclick$="8, 1);"].arrow-upvoted {
+    background-position: 0 -360px;
+}
+div[onclick$="9, 1);"].arrow-upvoted {
+    background-position: 0 -400px;
+}
+
+
+/**downvote**/
+
+.submission .arrow-downvote {
+    margin: 0;
+    height: 40px;
+    width: 40px;
+   /* background: url(https://i.sli.mg/fjnhWG.png) no-repeat;*/
+    background-size: 225px auto;
+    background-position: 4px -63px;
+    opacity: 0.7;
+}
+.submission .arrow-upvoted ~ .arrow-downvote {opacity: 0.4;}
+
+.submission .arrow-downvoted {
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    background: url(https://i.sli.mg/fjnhWG.png) no-repeat;
+    background-position: 0 -440px;
+}
+.submission .midcol {
+    position: relative;
+    right: 7px;
+    bottom: 6px;
+}
+
+
+/**upvoat msg**/
+.comment,
+.comment .midcol,
+.link .midcol {
+    overflow: visible;
+}
+.dark .comment .arrow-upvoted::after,
+.dark .arrow-upvoted::after {
+    color: #12C7E1!important;
+    background: transparent;
+}
+.comment .arrow-upvoted::after,
+.arrow-upvoted::after {
+    white-space: nowrap;
+    content: '';
+    font-size: 12px;
+    margin-left: 0px;
+    position: relative;
+    bottom: 10000px;
+    background: rgba(244, 244, 244, 0.2);
+    color: #12C7E1;
+    opacity: 0.0;
+    padding: 2px;
+    border-radius: 6px;
+    -webkit-animation: 3.5s ease-out 0s normal none 1 running upmod;
+    -moz-animation: 3.5s ease-out 0s normal none 1 running upmod;
+    -ms-animation: 3.5s ease-out 0s normal none 1 running upmod;
+    -o-animation: 3.5s ease-out 0s normal none 1 running upmod;
+    animation: 3.5s ease-out 0s normal none 1 running upmod;
+    z-index: 98;
+}
+@-webkit-keyframes upmod {
+    0% {bottom: 20px;left: 0px;}
+    15% {opacity: 1.0;}
+    50% {opacity: 1.0;}
+    100% {bottom: 20px;left: 200px; opacity: 0.0;}
+}
+@-moz-keyframes upmod {
+    0% {bottom: 20px;left: 0px;}
+    15% {opacity: 1.0;}
+    50% {opacity: 1.0;}
+    100% {bottom: 20px;left: 200px; opacity: 0.0;}
+}
+@-ms-keyframes upmod {
+    0% {bottom: 20px;left: 0px;}
+    15% {opacity: 1.0;}
+    50% {opacity: 1.0;}
+    100% {bottom: 20px;left: 200px; opacity: 0.0;}
+}
+@-o-keyframes upmod {
+    0% {bottom: 20px;left: 0px;}
+    15% {opacity: 1.0;}
+    50% {opacity: 1.0;}
+    100% {bottom: 20px;left: 200px; opacity: 0.0;}
+}
+@keyframes upmod {
+    0% {bottom: 20px;left: 0px;}
+    15% {opacity: 1.0;}
+    50% {opacity: 1.0;}
+    100% {bottom: 20px;left: 200px; opacity: 0.0;}
+}
+
+
+[onclick$="0, 1);"].arrow-upvoted::after {
+    content: " Your mom is on the cover of Crack Whore magazine.";
+}
+[onclick$="1, 1);"].arrow-upvoted::after {
+    content: " Anything that's fun costs at least eight dollars.";
+}
+[onclick$="2, 1);"].arrow-upvoted::after {
+    content: " Hell, everything's legal in Mexico. It's the American way.";
+}
+[onclick$="3, 1);"].arrow-upvoted::after {
+    content: " I would never let a woman kick my ass.";
+}
+[onclick$="4, 1);"].arrow-upvoted::after {
+    content: " You got some sand in your vagina?";
+}
+[onclick$="5, 1);"].arrow-upvoted::after {
+    content: " What-evah! I'll do what I waunt!";
+}
+[onclick$="6, 1);"].arrow-upvoted::after {
+    content: " Maybe we should send you to a concentration camp.";
+}
+[onclick$="7, 1);"].arrow-upvoted::after {
+    content: " Oh, my God! They killed Kenny.";
+}
+[onclick$="8, 1);"].arrow-upvoted::after {
+    content: " Respect My Authority!";
+}
+[onclick$="9, 1);"].arrow-upvoted::after {
+    content: " It's a man's obligation to stick his boneration in a women's separation; this sort of penetration will increase the population of the younger generation.";
+}
+
+} /*********end width***********/
+
+@media (max-width: 870px) {
+    .side {
+        position: absolute;
+        top: -11px;
+        left: -380px;
+    }
+} /*********end width***********/
+
+.logged-in, 
+.logged-out,
+#sr-header-area,
+#header-banner,
+#header,
+#header-container {
+    background-color: transparent;
+border: none;
+}
+.sr-list .sr-bar a {
+color: #44579b;
+}
+
+body.light #sr-bar li a {
+color: #004839;
+}
+body.light #sr-bar li a {
+color: #555;
+}
+
+#header .drop-arrow {
+border-color: #fee401 transparent transparent;
+}
+ul.whoaSubscriptionMenu.flat-list.sr-bar.hover ul {
+    max-height: 400px;
+    width: 240px;
+    overflow-y: scroll;
+}
+
+.link a.title.may-blank {
+color: #1e9932;
+}
+ 
+.link a.title.may-blank:hover {
+color: #d41539;
+}
+ 
+.link a.title.may-blank:visited {
+color: #40b1b9;
+}
+
+#container {
+background-color: #fedab4;
+border-top: 20px solid #6d3827;
+border-bottom: 20px solid #6d3827;
+border-left: 40px solid #6d3827;
+border-right: 40px solid #6d3827;
+border-radius: 3px;
+margin-left: auto!important;
+    margin-right: auto!important;
+    max-width: 90% !important;
+}
+body.dark #container {
+    background-color: #292929;
+}
+.odd, .even {
+background-color: transparent;
+}
+
+div.side div.spacer:nth-of-type(1) {
+    padding: 155px 0px 0px !important;
+    background: transparent url("https://i.imgur.com/K1Zrew3.gif") no-repeat scroll center top;
+    background-size: 100%;
+    margin-top: 0px;
+}
+
+a.btn-whoaverse.contribute {
+    text-size: 13px;
+    font-weight: bold!important;
+    letter-spacing: 6px;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    background-image: url(https://i.imgur.com/SYzOFFE.png);
+    background-size: 100% 100%;
+}
+
+a.btn-whoaverse.contribute:hover {
+    background: none;
+    text-size: 13px;
+    font-weight: bold!important;
+    color: #ff5808;
+    border-radius: 0px;
+    border: none;
+}
+.comment .comment,
+.comment .comment .comment,
+.comment .comment .comment .comment,
+.comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    border: none !important;
+    border-radius: 0px;
+    background: transparent;
+}
+
+#sr-more-link {
+display: none;
+}
+.light .footer-container {
+    background: url(https://i.sli.mg/g2CPdG.png) no-repeat;
+    background-position: bottom right;
+    height: 120px;
+}
