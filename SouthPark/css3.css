@@ -114,13 +114,12 @@ div[onclick$="9, 1);"].arrow-upvoted {
 /**downvote**/
 
 .submission .arrow-downvote {
-    margin: 0;
-    height: 40px;
-    width: 40px;
-   /* background: url(https://i.sli.mg/fjnhWG.png) no-repeat;*/
-    background-size: 244px auto;
-    background-position: 0px -72px;
-    opacity: 0.7;
+    margin: 0 auto;
+    height: 20px;
+    width: 20px;
+    background-size: 120px auto;
+    background-position: 0px -35px;
+    opacity: 0.8;
 }
 .submission .arrow-upvoted ~ .arrow-downvote {opacity: 0.4;}
 
