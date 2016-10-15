@@ -3162,3 +3162,42 @@ a[href="/screamingsun"]:after {
     background: url(https://i.imgur.com/a1ZdU4Z.png) no-repeat;
     background-position: 0 -3648px
 }
+
+
+
+.titlebox .usertext-body .md h5 {
+    text-indent: 100%;
+    -webkit-animation: ticker 36s linear infinite;
+    animation: ticker 36s linear infinite;
+    white-space: nowrap;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 16px;
+    border: 0px solid #CCCACC;
+    width: 280px;
+    overflow: hidden !important;
+    z-index: 100 !important;
+    text-decoration: none !important;
+    padding: 6px;
+    background: transparent;
+    font: 12px sans-serif;
+}
+@keyframes ticker {
+      0% {text-indent: 100%;}
+     95% {opacity: 1;text-indent: -2000px;}
+     96% {opacity: 0;text-indent: -2000px;}
+     97% {opacity: 0;}
+     98% {text-indent: 100%;}
+     99% {opacity: 0;}
+    100% {opacity: 1;}
+} 
+@-webkit-keyframes ticker {
+      0% {text-indent: 100%;}
+     95% {opacity: 1;text-indent: -1700px;}
+     96% {opacity: 0;text-indent: -1700px;}
+     97% {opacity: 0;}
+     98% {text-indent: 100%;}
+     99% {opacity: 0;}
+    100% {opacity: 1;}
+}
