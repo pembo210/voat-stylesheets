@@ -3173,7 +3173,7 @@ a[href="/screamingsun"]:after {
     display: block;
     position: absolute;
     top: 30px;
-    right: 16px;
+    right: 32px;
     border: 0px solid #CCCACC;
     width: 280px;
     overflow: hidden !important;
@@ -3181,7 +3181,7 @@ a[href="/screamingsun"]:after {
     text-decoration: none !important;
     padding: 6px;
     background: transparent;
-    font: 12px sans-serif;
+    font: 156x sans-serif;
 }
 @keyframes ticker {
       0% {text-indent: 100%;}
