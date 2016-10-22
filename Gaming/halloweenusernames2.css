@@ -90,7 +90,7 @@ a[data-username^="2"] {font-size: 0px;}
 a[data-username^="2"]:before {content: 'Grimlock'; font-size: 12px; font-weight: bold;}
 /**starts with 3**/
 a[data-username^="3"] {font-size: 0px;}
-a[data-username^="3"]:before {content: 'American McGee's Alice'; font-size: 12px; font-weight: bold;}
+a[data-username^="3"]:before {content: "American McGee's Alice"; font-size: 12px; font-weight: bold;}
 /**starts with 4**/
 a[data-username^="4"] {font-size: 0px;}
 a[data-username^="4"]:before {content: 'John Marston'; font-size: 12px; font-weight: bold;}
