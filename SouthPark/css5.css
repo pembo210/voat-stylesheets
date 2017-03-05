@@ -4,7 +4,7 @@
 body.light {background-color: #7CA4AE;}
 body.dark {background-color: #000;}
 
-body.light div#header {height: 250px;background: url(https://i.sli.mg/yVmx0Y.jpg) repeat-x #fff calc(50% + 70px) 0;}
+body.light div#header {height: 250px;background: url(https://i.imgjar.co/jar/sg6SgBs4RUiiqoIHrEi9DA.jpg) repeat-x #fff calc(50% + 70px) 0;}
 body.dark div#header {height: 280px;background: url(https://i.sli.mg/jvikBe.png) no-repeat #000 50% 0;}
 
 .tabmenu a.contribute {display: none;}
@@ -12,7 +12,7 @@ body.dark div#header {height: 280px;background: url(https://i.sli.mg/jvikBe.png)
 #header-banner {    max-width: 1400px;}
 #header-img {
     padding-left: 180px;
-    background: url(https://i.sli.mg/eJ7Qik.png) no-repeat;
+    background: url(https://i.imgjar.co/jar/LCDP_8TlJk2iM9duAKs7wA.png) no-repeat;
     background-size: 180px auto;
     height: 98px !important;
     width: 180px !important;
@@ -70,14 +70,14 @@ a.thumbnail.may-blank {
     margin: 0;
     height: 40px;
     width: 40px;
-    background: url(https://i.sli.mg/fjnhWG.png) no-repeat;
+    background: url(https://i.imgjar.co/jar/lXnA1ggy90i-VoAKpISIIg.png) no-repeat;
     opacity: 0.7;
 }
 .submission .arrow-upvoted {
     margin: 0;
     height: 40px;
     width: 40px;
-    background: url(https://i.sli.mg/fjnhWG.png) no-repeat;
+    background: url(https://i.imgjar.co/jar/lXnA1ggy90i-VoAKpISIIg.png) no-repeat;
 }
 div[onclick$="0, 1);"].arrow-upvoted {
     background-position: 0 -40px;
@@ -127,7 +127,7 @@ div[onclick$="9, 1);"].arrow-upvoted {
     margin: 0;
     height: 40px;
     width: 40px;
-    background: url(https://i.sli.mg/fjnhWG.png) no-repeat;
+    background: url(https://i.imgjar.co/jar/lXnA1ggy90i-VoAKpISIIg.png) no-repeat;
     background-position: 0 -440px;
 }
 .submission .midcol {
@@ -299,7 +299,7 @@ body.dark #container {
 .odd, .even {
 background-color: transparent;
 }
-
+/*
 div.side div.spacer:nth-of-type(1) {
     padding: 155px 0px 0px !important;
     background: transparent url("https://i.imgur.com/K1Zrew3.gif") no-repeat scroll center top;
@@ -317,7 +317,7 @@ a.btn-whoaverse.contribute {
     background-image: url(https://i.imgur.com/SYzOFFE.png);
     background-size: 100% 100%;
 }
-
+*/
 a.btn-whoaverse.contribute:hover {
     background: none;
     text-size: 13px;
